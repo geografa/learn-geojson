@@ -30,7 +30,7 @@
 		// create a map in the "map" div, set the view to a given place and zoom
 
 		// add an Mapbox tile layer
-		var map = L.mapbox.map('map', 'examples.map-9ijuk24y')
+		var map = L.mapbox.map('map', 'examples.map-9ijuk24y,grafa.DowntownPortland')
     .setView([45.52822320885938,-122.6579761505127], 14);
 		// add our goejson data
 		$.getJSON("pdxplaces.geojson", function(data) {
@@ -43,3 +43,4 @@
 		</script>
 	</body>
 </html>
+
